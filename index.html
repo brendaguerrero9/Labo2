@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1><center>Curriculum Vitae</center></h1>
+    <form action="index.html" method="POST">
+        <fieldset>
+            <legend>Personal Data</legend>
+
+            <label for= "dui">DUI</label>
+            <input type="text" name="dui" id="dui" placeholder="048134128">
+
+            <label for="First">First Name</label>
+            <input type="text" name="First" id="First" placeholder="First Name">
+
+
+            <label for="Last"> Last Name</label>
+            <input type="text" name="Last" id="Last" placeholder="Last Name">
+
+            <label for="gend">Gender</label>
+            <input type="radio" name="gender[]"> M
+            <input type="radio" name="gender[]"> F
+            <br>
+
+            <label for="num"> Contact Number</label>
+            <input type="text" name="num" id="num" placeholder="">
+
+            <label for="birth"> Birthdate</label>
+            <input type="date" name="birth" id="birth" value="1998-10-21">
+
+            <label for="civil"> Civil Status</label>
+            <select>
+                <option>Single</option>
+                <option>Taken</option>
+                <option>Complicated</option>
+            </select>
+
+            <label for="ima"> Image</label>
+            <input type="file" name="ima" id="ima">
+
+        </fieldset>
+
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Work Experience</legend>
+            <textarea cols="255" rows="10" placeholder="Experience"></textarea>
+        </fieldset>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Academic Training</legend>
+            <textarea cols="255" rows="10" placeholder="Academic Training"></textarea>
+        </fieldset>
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Further Training</legend>
+            <fieldset>
+                <legend>Programming Languages</legend>
+                <input type="checkbox" name="pro" value="Java">
+                <label for="pro">Java</label>
+                <input type="checkbox" name="pro2" value="C#">
+                <label for="pro">C#</label>
+                <input type="checkbox" name="pro3" value="Phyton">
+                <label for="pro">Python</label>
+                <input type="checkbox" name="pro4" value="Ruby">
+                <label for="pro">Ruby</label>
+                
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Web Technologies</legend>
+                <input type="checkbox" name="Web" value="HTML5">
+                <label for="Web">HTML5</label>
+                <input type="checkbox" name="Web2" value="CSS/CSS3">
+                <label for="Web">CSS/CSS3</label>
+                <input type="checkbox" name="Web" value="HTML5">
+                <label for="Web">HTML5</label>
+                <input type="checkbox" name="Web3" value="Materialize Css">
+                <label for="Web">Materialize Css</label>
+                <input type="checkbox" name="Web4" value="JavaScript">
+                <label for="Web">JavaScript</label>
+                <input type="checkbox" name="Web5" value="Node.js">
+                <label for="Web">Node.js</label>
+                <input type="checkbox" name="Web6" value="Spring MVC">
+                <label for="Web">Spring MVC</label>
+            </fieldset>
+        </fieldset>
+        <br>
+        <input type="submit" value="Send">
+        <a href="index.html"> <input type="button" value="Cancel"></a>
+    </form>
+</body>
+</html>
